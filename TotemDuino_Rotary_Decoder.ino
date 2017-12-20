@@ -20,10 +20,8 @@
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 // GNU General Public License for more details.
 //
-// You should have received a copy of the GNU General Public License along
-// with this program; if not, write to the Free Software Foundation, Inc.,
-// 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
-//
+// You should have received a copy of the GNU General Public License
+// along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // ------------------------------------------------------------------------
 //        Copyright (C) 2017 Gerard Wassink
 // ------------------------------------------------------------------------
@@ -47,7 +45,14 @@ int prev_val = 3;                     // Previous value
 // -------------------------------------------------------------------------------------
 void setup() {
   Serial.begin(9600);                 // Set up Serial
-  Serial.println("TotemDuino_Rotary_Encoder");  // Greet our public
+  // ---
+  // --- Greet our audience
+  // ---
+  Serial.println("TotemDuino_Rotary_Encoder  Copyright (C) 2017  GerardWassink");
+  Serial.println("This program comes with ABSOLUTELY NO WARRANTY;");
+  Serial.println("This is free software, and you are welcome to redistribute it");
+  Serial.println("under certain conditions; see the LICENSE file for details.");
+  Serial.println("");
   
   for (int i=0; i<=7; i++) {          // Set
     pinMode(LED[i], OUTPUT);          //   all LEDs 
