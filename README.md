@@ -6,6 +6,6 @@ Please see this explanatory document.
 
 ## See also:
 
-[Explanatory document](./Side Panel 1 - Rotary Encoder.pdf)
+[Explanatory document](./Side_Panel_1_Rotary_Encoder.pdf)
 
 [License file](./LICENSE)
